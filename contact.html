@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Contact</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+		<!-- The below nav contains the page owner name and linkes to three other pages including this one -->
+		<nav id = "navigation">
+			<h1 id = "name"> Amer Saleh </h1>
+
+			<a id = "contact" href="contact.html"> Contact </a>
+
+			<a id = "portfolio" href="portfolio.html"> Portfolio </a>
+
+			<a id = "about" href="index.html"> About </a>
+		</nav>
+		
+		<!-- The following div contains two sections which are article and aside -->
+		<div class = "content"> 
+			
+			<!-- The following code to creat a form for users to sent their info to Amer -->
+			<form id = "form" action = "/action_page.php">
+
+				<h1 id = "title">Contact</h1>
+
+				<h1 class = "form-title">Name</h1>
+				<input type="text" name="name" value="John Smith"> 
+
+				<h1 class = "form-title">Email</h1>
+				<input type="text" name="email" value="example@gmail.com"> 
+
+				<h1 class = "form-title">Message</h1>
+				<input id = "msg" type="text" name="msg"> 
+
+				<input id = "submit" type="submit" name="submit" value="Submit">
+			</form>
+
+			<aside id = "aside">
+				<h1 id = "conwith"> Connect with Me </h1>
+
+				<!-- Linke to github page -->
+				<a href="https://github.com" target = "_blank">
+					<img src="assets/images/Github.png" alt = "GitHub Icon" width="56px" height="48px">
+				</a>
+				
+				<!-- Linke to Stack Over Flow page -->
+				<a href="http://Stackoverflow.com" target = "_blank">
+					<img src="assets/images/Stackoverflow.png" alt = "Stck Over Flow Icon" width= "56px" height="48px">
+				</a>
+
+				<!-- Linke to Linkedin page -->
+				<a href="http://Linkedin.com" target ="_blank">
+					<img src="assets/images/Linkedin.png" alt = "Linkedin Icon" width = "56px" height = "48px">
+				</a>
+			</aside>
+		</div>
+
+		<footer id = "footer">
+			<h1 id = "coright">Copyright 2017 Amer Saleh</h1>
+		</footer>
+
+</body>
+</html>
